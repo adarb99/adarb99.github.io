@@ -215,12 +215,24 @@
   	/*---------------------------------------------------- */
 	/*	contact form
 	------------------------------------------------------ */
+	/*$('#contactForm').validate(
 
-	/* local validation */
+	submitHandler, function(form) {
+
+		var formData = $(form).serialize();
+
+		var emailUrl = "mailto:ashtonb.darby99@gmail.com" +
+						"?subject=Form Submission" +
+						"&body=" + encodeURIComponent(formData);
+
+		window.location.href = emailUrl;
+	});*/
+
+	/* local validation **/
 	$('#contactForm').validate({
 
-		/* submit via ajax */
-		submitHandler: function(form) {
+		/*  submit via ajax */
+		submitHandler, function(form) {
 
 			var sLoader = $('#submit-loader');
 

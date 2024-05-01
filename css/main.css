@@ -925,7 +925,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #FF0077;
+	color: #0066ff;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1041,7 +1041,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #FF0077;
+	color: #0066ff;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1629,7 +1629,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: #0066ff;
 }
 
 #resume .resume-timeline {
@@ -1956,7 +1956,7 @@ header .logo a {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: #0066ff;
 	border: none;
 }
 @media only screen and (max-width:600px) {
